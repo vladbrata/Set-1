@@ -1,4 +1,4 @@
-﻿
+﻿// Rezolvati ecuatia de gradul 1 cu o necunoscuta: ax+b = 0, unde a si b sunt date de intrare. 
 Console.Write("a:");
 double a = Convert.ToDouble(Console.ReadLine());
 Console.Write("b:");

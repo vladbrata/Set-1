@@ -4,13 +4,26 @@ double a = Convert.ToDouble(Console.ReadLine());
 Console.Write("b:");
 double b = Convert.ToDouble(Console.ReadLine());
 
-Console.WriteLine($"Se rezolva ecuatia {a}x + {b} = 0");
-Console.WriteLine($"x = -b / a");
-Console.WriteLine($"x = -{b} / {a}");
-Console.WriteLine("x = " + Result(a, b));
+double result = Result(a ,b);
+
+Console.WriteLine(PrintResult(result));
 
 static double Result(double a, double b)
 {
-    double x = -b / a;
-    return x;
+    if (a == 0) {
+        Console.WriteLine("Rezultatul nu are solutii reale.");
+        return 0.1;
+    }
+    
+    return -b / a;
+}
+static string PrintResult(double result)
+{
+    string output = "x = " + result;
+    if (result == 0.1) {
+        return "Rezultatul nu are solutii reale.";
+    }
+    else {
+        return "x = " + result;
+    }
 }

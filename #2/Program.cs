@@ -1,4 +1,5 @@
-﻿Console.Write("a:");
+﻿// Rezolvati ecuatia de gradul 2 cu o necunoscuta: ax^2 + bx + c = 0, unde a, b si c sunt date de intrare. Tratati toate cazurile posibile.
+Console.Write("a:");
 int a = Convert.ToInt32(Console.ReadLine());
 Console.Write("b:");
 int b = Convert.ToInt32(Console.ReadLine());

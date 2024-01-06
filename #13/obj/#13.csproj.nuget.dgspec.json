@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Coding\\Set-1\\#13\\#13.csproj": {}
+    "D:\\Coding\\CSharpProjects\\Facultate\\Set-1\\#13\\#13.csproj": {}
   },
   "projects": {
-    "D:\\Coding\\Set-1\\#13\\#13.csproj": {
+    "D:\\Coding\\CSharpProjects\\Facultate\\Set-1\\#13\\#13.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Coding\\Set-1\\#13\\#13.csproj",
+        "projectUniqueName": "D:\\Coding\\CSharpProjects\\Facultate\\Set-1\\#13\\#13.csproj",
         "projectName": "#13",
-        "projectPath": "D:\\Coding\\Set-1\\#13\\#13.csproj",
+        "projectPath": "D:\\Coding\\CSharpProjects\\Facultate\\Set-1\\#13\\#13.csproj",
         "packagesPath": "C:\\Users\\vladb\\.nuget\\packages\\",
-        "outputPath": "D:\\Coding\\Set-1\\#13\\obj\\",
+        "outputPath": "D:\\Coding\\CSharpProjects\\Facultate\\Set-1\\#13\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vladb\\AppData\\Roaming\\NuGet\\NuGet.Config",

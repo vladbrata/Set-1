@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Coding\\Set-1\\#7\\#7.csproj",
+      "projectUniqueName": "D:\\Coding\\CSharpProjects\\Facultate\\Set-1\\#7\\#7.csproj",
       "projectName": "#7",
-      "projectPath": "D:\\Coding\\Set-1\\#7\\#7.csproj",
+      "projectPath": "D:\\Coding\\CSharpProjects\\Facultate\\Set-1\\#7\\#7.csproj",
       "packagesPath": "C:\\Users\\vladb\\.nuget\\packages\\",
-      "outputPath": "D:\\Coding\\Set-1\\#7\\obj\\",
+      "outputPath": "D:\\Coding\\CSharpProjects\\Facultate\\Set-1\\#7\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\vladb\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,0 +1,14 @@
+D:\Coding\CSharpProjects\Facultate\Set-1\#17\bin\Debug\net7.0\#17.exe
+D:\Coding\CSharpProjects\Facultate\Set-1\#17\bin\Debug\net7.0\#17.deps.json
+D:\Coding\CSharpProjects\Facultate\Set-1\#17\bin\Debug\net7.0\#17.runtimeconfig.json
+D:\Coding\CSharpProjects\Facultate\Set-1\#17\bin\Debug\net7.0\#17.dll
+D:\Coding\CSharpProjects\Facultate\Set-1\#17\bin\Debug\net7.0\#17.pdb
+D:\Coding\CSharpProjects\Facultate\Set-1\#17\obj\Debug\net7.0\#17.GeneratedMSBuildEditorConfig.editorconfig
+D:\Coding\CSharpProjects\Facultate\Set-1\#17\obj\Debug\net7.0\#17.AssemblyInfoInputs.cache
+D:\Coding\CSharpProjects\Facultate\Set-1\#17\obj\Debug\net7.0\#17.AssemblyInfo.cs
+D:\Coding\CSharpProjects\Facultate\Set-1\#17\obj\Debug\net7.0\#17.csproj.CoreCompileInputs.cache
+D:\Coding\CSharpProjects\Facultate\Set-1\#17\obj\Debug\net7.0\#17.dll
+D:\Coding\CSharpProjects\Facultate\Set-1\#17\obj\Debug\net7.0\refint\#17.dll
+D:\Coding\CSharpProjects\Facultate\Set-1\#17\obj\Debug\net7.0\#17.pdb
+D:\Coding\CSharpProjects\Facultate\Set-1\#17\obj\Debug\net7.0\#17.genruntimeconfig.cache
+D:\Coding\CSharpProjects\Facultate\Set-1\#17\obj\Debug\net7.0\ref\#17.dll

@@ -4,14 +4,13 @@ Console.Write("Da-mi un numar e: ");
 int e = Convert.ToInt32(Console.ReadLine());
 int[] arr = IntToArr(e);
 
-if (DoesRepeat(arr))
-{
-    Console.WriteLine($"Numarul {e} este format din doua cifre care se repeta!");
+if (DoesRepeat(arr)) {
+    Console.WriteLine($"Numarul {e} este format din doua cifre care se pot repeta!");
 }
-else
-{
-    Console.WriteLine($"Numarul {e} nu este format din doua cifre care se repeta!");
+else {
+    Console.WriteLine($"Numarul {e} nu este format din doua cifre care se pot repeta!");
 }
+
 static int Digits(int n)
 {
     int digits = n < 0 ? 2 : 1;
@@ -30,55 +29,30 @@ static int[] IntToArr(int n)
     return arr;
 }
 
-// TODO de facut functia asta sa fucntioneze
 static bool DoesRepeat(int[] arr)
 {
     int n = arr.Length;
-    bool repeat = true;
-    int firstElement = arr[0];
-    int secondElement = 0;
 
     switch (n) {
-        case < 2:
+        case < 2: // daca numarul este decat o cifra, atunci nu respecta cerinta
             return false;
-        case 2:
+        case 2: // daca numarul este format din 2 cifre, inevitabil respecta cerinta
             return true;
-        case 3:
-            for (int i = 0; i < 2; i++) {
-                if (arr[i] == arr[i + 1]) {
-                    return true;
+        case >= 3: // daca este format din 3 sau mai multe cifre, se stabilesc primele 2 cifre diferite. dupa care se verifica daca exista mai mult de 2 cifre  diferite.
+            int firstNum = arr[0];
+            int secondNum = 0;
+            for (int i = 1; i < n; i++) {
+                if (arr[i] != firstNum) {
+                    secondNum = arr[i];
+                    break;
                 }
             }
-            return false;
-         case > 3:
-            int cnt = 0;
+            
             for (int i = 0; i < n; i++) {
-                for (int j = i + 1; j < n; j++) {
-                    if (arr[i] != arr[j]) {
-                        cnt++;
-                    }
-                    if (cnt > 2) {
-                        return false;
-                    }
+                if (arr[i] != firstNum && arr[i] != secondNum) {
+                    return false;
                 }
-                
-            }    
+            }
             return true;
-        }
-
-    }
-        // 1 1 1 1 2
-    
-    // for (int i = 0; i < n; i++) {
-    //     if (arr[i] != arr[0]) {
-    //         secondElement = arr[i];
-    //     }
-    // }
-    // if (n > 3) {
-    //     // for (int i = 0; i < n; i++) {
-    //     //     if (arr[i] != firstElement && arr[i] != secondElement) {
-    //     //         return false;
-    //     //     }
-    //     // }
-    // }
-    // return repeat;
+    }    
+}
